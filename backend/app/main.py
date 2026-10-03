@@ -37,14 +37,20 @@ app = FastAPI(
     lifespan=lifespan,
 )
 
-# Allow exact origins plus any *.vercel.app preview/production host
-_cors_origins = settings.cors_origin_list
-_cors_origins = [o for o in _cors_origins if "*" not in o]
+# Allow exact origins plus common public hosts (Vercel / Netlify)
+_cors_origins = [o for o in settings.cors_origin_list if "*" not in o]
+for _extra in (
+    "https://gridflex-pakistan.netlify.app",
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
+):
+    if _extra not in _cors_origins:
+        _cors_origins.append(_extra)
 
 app.add_middleware(
     CORSMiddleware,
     allow_origins=_cors_origins,
-    allow_origin_regex=r"https://.*\.vercel\.app",
+    allow_origin_regex=r"https://.*\.(vercel\.app|netlify\.app|ngrok-free\.app|ngrok\.io)",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

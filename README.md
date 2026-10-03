@@ -76,6 +76,18 @@ docker compose up --build
 - API: http://localhost:8000  
 - Postgres: localhost:5432  
 
+### Public deploy
+
+| Piece | Host | URL |
+|-------|------|-----|
+| Frontend | Netlify | https://gridflex-pakistan.netlify.app |
+| Repo | GitHub | https://github.com/AmmarJamshed/gridflex-pakistan |
+| API (always-on) | Render (one-click) | [Deploy API](https://render.com/deploy?repo=https://github.com/AmmarJamshed/gridflex-pakistan) |
+| Frontend (alt) | Vercel | [Import to Vercel](https://vercel.com/new/clone?repository-url=https://github.com/AmmarJamshed/gridflex-pakistan&root-directory=frontend) |
+
+After the Render API is live, set Netlify env `VITE_API_URL` to that HTTPS URL and trigger a rebuild.  
+Vercel CLI login was not available in this environment; use the Import link above or `vercel login` locally.
+
 ### Demo credentials
 
 | Role | Email | Password |

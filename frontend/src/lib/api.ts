@@ -12,6 +12,10 @@ async function request<T>(
     ...(options.headers as Record<string, string> | undefined),
   };
   if (token) headers.Authorization = `Bearer ${token}`;
+  // Bypass ngrok free-tier browser interstitial for API calls
+  if (API_BASE.includes("ngrok")) {
+    headers["ngrok-skip-browser-warning"] = "true";
+  }
   const res = await fetch(`${API_BASE}${path}`, { ...options, headers });
   if (!res.ok) {
     const text = await res.text();
