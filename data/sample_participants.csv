@@ -1,0 +1,7 @@
+external_ref,category,name,zone_code,baseload_kw,flexible_kw,curtailable_kw,solar_kw,battery_kwh
+RES-KHI-001,residential,Karachi Home A,KHI,3.0,1.5,1.0,0,0
+COM-LHE-001,commercial,Lahore Office Park,LHE,40,15,10,50,0
+IND-FSD-001,industrial,Faisalabad Factory,FSD,700,200,100,0,0
+PRO-ISB-001,prosumer,Islamabad Prosumer,ISB,5,2,1,8,10
+SOL-MUL-001,solar,Multan Rooftop Fleet,MUL,2,0.5,0.2,20,0
+BAT-PEW-001,battery,Peshawar Community Battery,PEW,1,0,0,0,50

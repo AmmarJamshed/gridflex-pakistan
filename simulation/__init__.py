@@ -1,0 +1,1 @@
+"""Standalone simulation package (mirrors backend engine for offline runs)."""

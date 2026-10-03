@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --flex-green: #1fa97a;
+  --flex-blue: #1b6ca8;
+  --flex-orange: #e08a2b;
+  --flex-red: #c0392b;
+  --flex-purple: #6c4ab6;
+  --ink: #0e1a24;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "IBM Plex Sans", system-ui, sans-serif;
+  background:
+    radial-gradient(1200px 600px at 10% -10%, rgba(31, 169, 122, 0.18), transparent 55%),
+    radial-gradient(900px 500px at 90% 0%, rgba(27, 108, 168, 0.16), transparent 50%),
+    linear-gradient(180deg, #eef5f2 0%, #e8f1f5 45%, #dce8e2 100%);
+  color: var(--ink);
+}
+
+@layer components {
+  .panel {
+    @apply rounded-2xl border border-white/60 bg-white/80 shadow-panel backdrop-blur;
+  }
+  .stat {
+    @apply panel p-4;
+  }
+  .btn {
+    @apply inline-flex items-center justify-center rounded-xl px-4 py-2.5 text-sm font-semibold transition;
+  }
+  .btn-primary {
+    @apply btn bg-flex-blue text-white hover:bg-[#155a8f];
+  }
+  .btn-accent {
+    @apply btn bg-flex-green text-white hover:bg-[#178a64];
+  }
+  .btn-warn {
+    @apply btn bg-flex-orange text-white hover:bg-[#c67820];
+  }
+  .chip {
+    @apply inline-flex items-center rounded-full px-2.5 py-1 text-xs font-semibold;
+  }
+}
+
+@keyframes pulse-live {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.55; transform: scale(0.92); }
+}
+
+.live-dot {
+  animation: pulse-live 1.6s ease-in-out infinite;
+}
+
+@keyframes rise-in {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.rise {
+  animation: rise-in 0.55s ease both;
+}

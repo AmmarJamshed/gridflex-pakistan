@@ -1,0 +1,3026 @@
+{
+  "demand": {
+    "model_name": "RandomForestRegressor+LinearRegression",
+    "horizons": {
+      "1h": [
+        {
+          "step": 1,
+          "value": 1349.79,
+          "unit": "MW"
+        }
+      ],
+      "6h": [
+        {
+          "step": 1,
+          "value": 1349.79,
+          "unit": "MW"
+        },
+        {
+          "step": 2,
+          "value": 1358.125,
+          "unit": "MW"
+        },
+        {
+          "step": 3,
+          "value": 1342.549,
+          "unit": "MW"
+        },
+        {
+          "step": 4,
+          "value": 1362.118,
+          "unit": "MW"
+        },
+        {
+          "step": 5,
+          "value": 1345.084,
+          "unit": "MW"
+        },
+        {
+          "step": 6,
+          "value": 1358.848,
+          "unit": "MW"
+        }
+      ],
+      "24h": [
+        {
+          "step": 1,
+          "value": 1349.79,
+          "unit": "MW"
+        },
+        {
+          "step": 2,
+          "value": 1358.125,
+          "unit": "MW"
+        },
+        {
+          "step": 3,
+          "value": 1342.549,
+          "unit": "MW"
+        },
+        {
+          "step": 4,
+          "value": 1362.118,
+          "unit": "MW"
+        },
+        {
+          "step": 5,
+          "value": 1345.084,
+          "unit": "MW"
+        },
+        {
+          "step": 6,
+          "value": 1358.848,
+          "unit": "MW"
+        },
+        {
+          "step": 7,
+          "value": 1314.176,
+          "unit": "MW"
+        },
+        {
+          "step": 8,
+          "value": 1428.877,
+          "unit": "MW"
+        },
+        {
+          "step": 9,
+          "value": 1460.992,
+          "unit": "MW"
+        },
+        {
+          "step": 10,
+          "value": 1431.389,
+          "unit": "MW"
+        },
+        {
+          "step": 11,
+          "value": 1394.94,
+          "unit": "MW"
+        },
+        {
+          "step": 12,
+          "value": 1396.481,
+          "unit": "MW"
+        },
+        {
+          "step": 13,
+          "value": 1483.0,
+          "unit": "MW"
+        },
+        {
+          "step": 14,
+          "value": 1529.805,
+          "unit": "MW"
+        },
+        {
+          "step": 15,
+          "value": 1604.814,
+          "unit": "MW"
+        },
+        {
+          "step": 16,
+          "value": 1503.791,
+          "unit": "MW"
+        },
+        {
+          "step": 17,
+          "value": 1495.476,
+          "unit": "MW"
+        },
+        {
+          "step": 18,
+          "value": 1644.688,
+          "unit": "MW"
+        },
+        {
+          "step": 19,
+          "value": 1839.885,
+          "unit": "MW"
+        },
+        {
+          "step": 20,
+          "value": 2081.08,
+          "unit": "MW"
+        },
+        {
+          "step": 21,
+          "value": 2183.708,
+          "unit": "MW"
+        },
+        {
+          "step": 22,
+          "value": 2026.211,
+          "unit": "MW"
+        },
+        {
+          "step": 23,
+          "value": 1845.841,
+          "unit": "MW"
+        },
+        {
+          "step": 24,
+          "value": 1650.006,
+          "unit": "MW"
+        }
+      ],
+      "7d": [
+        {
+          "step": 1,
+          "value": 1349.79,
+          "unit": "MW"
+        },
+        {
+          "step": 2,
+          "value": 1358.125,
+          "unit": "MW"
+        },
+        {
+          "step": 3,
+          "value": 1342.549,
+          "unit": "MW"
+        },
+        {
+          "step": 4,
+          "value": 1362.118,
+          "unit": "MW"
+        },
+        {
+          "step": 5,
+          "value": 1345.084,
+          "unit": "MW"
+        },
+        {
+          "step": 6,
+          "value": 1358.848,
+          "unit": "MW"
+        },
+        {
+          "step": 7,
+          "value": 1314.176,
+          "unit": "MW"
+        },
+        {
+          "step": 8,
+          "value": 1428.877,
+          "unit": "MW"
+        },
+        {
+          "step": 9,
+          "value": 1460.992,
+          "unit": "MW"
+        },
+        {
+          "step": 10,
+          "value": 1431.389,
+          "unit": "MW"
+        },
+        {
+          "step": 11,
+          "value": 1394.94,
+          "unit": "MW"
+        },
+        {
+          "step": 12,
+          "value": 1396.481,
+          "unit": "MW"
+        },
+        {
+          "step": 13,
+          "value": 1483.0,
+          "unit": "MW"
+        },
+        {
+          "step": 14,
+          "value": 1529.805,
+          "unit": "MW"
+        },
+        {
+          "step": 15,
+          "value": 1604.814,
+          "unit": "MW"
+        },
+        {
+          "step": 16,
+          "value": 1503.791,
+          "unit": "MW"
+        },
+        {
+          "step": 17,
+          "value": 1495.476,
+          "unit": "MW"
+        },
+        {
+          "step": 18,
+          "value": 1644.688,
+          "unit": "MW"
+        },
+        {
+          "step": 19,
+          "value": 1839.885,
+          "unit": "MW"
+        },
+        {
+          "step": 20,
+          "value": 2081.08,
+          "unit": "MW"
+        },
+        {
+          "step": 21,
+          "value": 2183.708,
+          "unit": "MW"
+        },
+        {
+          "step": 22,
+          "value": 2026.211,
+          "unit": "MW"
+        },
+        {
+          "step": 23,
+          "value": 1845.841,
+          "unit": "MW"
+        },
+        {
+          "step": 24,
+          "value": 1650.006,
+          "unit": "MW"
+        },
+        {
+          "step": 25,
+          "value": 1341.273,
+          "unit": "MW"
+        },
+        {
+          "step": 26,
+          "value": 1333.15,
+          "unit": "MW"
+        },
+        {
+          "step": 27,
+          "value": 1338.003,
+          "unit": "MW"
+        },
+        {
+          "step": 28,
+          "value": 1344.679,
+          "unit": "MW"
+        },
+        {
+          "step": 29,
+          "value": 1346.756,
+          "unit": "MW"
+        },
+        {
+          "step": 30,
+          "value": 1353.944,
+          "unit": "MW"
+        },
+        {
+          "step": 31,
+          "value": 1327.891,
+          "unit": "MW"
+        },
+        {
+          "step": 32,
+          "value": 1434.796,
+          "unit": "MW"
+        },
+        {
+          "step": 33,
+          "value": 1470.482,
+          "unit": "MW"
+        },
+        {
+          "step": 34,
+          "value": 1413.867,
+          "unit": "MW"
+        },
+        {
+          "step": 35,
+          "value": 1391.133,
+          "unit": "MW"
+        },
+        {
+          "step": 36,
+          "value": 1404.841,
+          "unit": "MW"
+        },
+        {
+          "step": 37,
+          "value": 1485.613,
+          "unit": "MW"
+        },
+        {
+          "step": 38,
+          "value": 1532.188,
+          "unit": "MW"
+        },
+        {
+          "step": 39,
+          "value": 1578.879,
+          "unit": "MW"
+        },
+        {
+          "step": 40,
+          "value": 1502.502,
+          "unit": "MW"
+        },
+        {
+          "step": 41,
+          "value": 1502.715,
+          "unit": "MW"
+        },
+        {
+          "step": 42,
+          "value": 1628.177,
+          "unit": "MW"
+        },
+        {
+          "step": 43,
+          "value": 1850.885,
+          "unit": "MW"
+        },
+        {
+          "step": 44,
+          "value": 2093.527,
+          "unit": "MW"
+        },
+        {
+          "step": 45,
+          "value": 2180.252,
+          "unit": "MW"
+        },
+        {
+          "step": 46,
+          "value": 2029.045,
+          "unit": "MW"
+        },
+        {
+          "step": 47,
+          "value": 1840.835,
+          "unit": "MW"
+        },
+        {
+          "step": 48,
+          "value": 1620.682,
+          "unit": "MW"
+        },
+        {
+          "step": 49,
+          "value": 1355.271,
+          "unit": "MW"
+        },
+        {
+          "step": 50,
+          "value": 1355.579,
+          "unit": "MW"
+        },
+        {
+          "step": 51,
+          "value": 1342.903,
+          "unit": "MW"
+        },
+        {
+          "step": 52,
+          "value": 1353.656,
+          "unit": "MW"
+        },
+        {
+          "step": 53,
+          "value": 1336.594,
+          "unit": "MW"
+        },
+        {
+          "step": 54,
+          "value": 1361.836,
+          "unit": "MW"
+        },
+        {
+          "step": 55,
+          "value": 1317.905,
+          "unit": "MW"
+        },
+        {
+          "step": 56,
+          "value": 1428.712,
+          "unit": "MW"
+        },
+        {
+          "step": 57,
+          "value": 1503.9,
+          "unit": "MW"
+        },
+        {
+          "step": 58,
+          "value": 1431.321,
+          "unit": "MW"
+        },
+        {
+          "step": 59,
+          "value": 1376.846,
+          "unit": "MW"
+        },
+        {
+          "step": 60,
+          "value": 1421.024,
+          "unit": "MW"
+        },
+        {
+          "step": 61,
+          "value": 1497.767,
+          "unit": "MW"
+        },
+        {
+          "step": 62,
+          "value": 1542.792,
+          "unit": "MW"
+        },
+        {
+          "step": 63,
+          "value": 1578.992,
+          "unit": "MW"
+        },
+        {
+          "step": 64,
+          "value": 1507.078,
+          "unit": "MW"
+        },
+        {
+          "step": 65,
+          "value": 1504.13,
+          "unit": "MW"
+        },
+        {
+          "step": 66,
+          "value": 1625.748,
+          "unit": "MW"
+        },
+        {
+          "step": 67,
+          "value": 1840.019,
+          "unit": "MW"
+        },
+        {
+          "step": 68,
+          "value": 2081.744,
+          "unit": "MW"
+        },
+        {
+          "step": 69,
+          "value": 2193.12,
+          "unit": "MW"
+        },
+        {
+          "step": 70,
+          "value": 2031.209,
+          "unit": "MW"
+        },
+        {
+          "step": 71,
+          "value": 1845.288,
+          "unit": "MW"
+        },
+        {
+          "step": 72,
+          "value": 1601.911,
+          "unit": "MW"
+        },
+        {
+          "step": 73,
+          "value": 1335.111,
+          "unit": "MW"
+        },
+        {
+          "step": 74,
+          "value": 1346.52,
+          "unit": "MW"
+        },
+        {
+          "step": 75,
+          "value": 1343.283,
+          "unit": "MW"
+        },
+        {
+          "step": 76,
+          "value": 1343.273,
+          "unit": "MW"
+        },
+        {
+          "step": 77,
+          "value": 1335.605,
+          "unit": "MW"
+        },
+        {
+          "step": 78,
+          "value": 1344.842,
+          "unit": "MW"
+        },
+        {
+          "step": 79,
+          "value": 1325.162,
+          "unit": "MW"
+        },
+        {
+          "step": 80,
+          "value": 1437.531,
+          "unit": "MW"
+        },
+        {
+          "step": 81,
+          "value": 1470.281,
+          "unit": "MW"
+        },
+        {
+          "step": 82,
+          "value": 1411.364,
+          "unit": "MW"
+        },
+        {
+          "step": 83,
+          "value": 1374.837,
+          "unit": "MW"
+        },
+        {
+          "step": 84,
+          "value": 1419.427,
+          "unit": "MW"
+        },
+        {
+          "step": 85,
+          "value": 1488.003,
+          "unit": "MW"
+        },
+        {
+          "step": 86,
+          "value": 1517.002,
+          "unit": "MW"
+        },
+        {
+          "step": 87,
+          "value": 1577.332,
+          "unit": "MW"
+        },
+        {
+          "step": 88,
+          "value": 1524.956,
+          "unit": "MW"
+        },
+        {
+          "step": 89,
+          "value": 1505.938,
+          "unit": "MW"
+        },
+        {
+          "step": 90,
+          "value": 1603.583,
+          "unit": "MW"
+        },
+        {
+          "step": 91,
+          "value": 1867.719,
+          "unit": "MW"
+        },
+        {
+          "step": 92,
+          "value": 2057.675,
+          "unit": "MW"
+        },
+        {
+          "step": 93,
+          "value": 2172.734,
+          "unit": "MW"
+        },
+        {
+          "step": 94,
+          "value": 2023.71,
+          "unit": "MW"
+        },
+        {
+          "step": 95,
+          "value": 1823.126,
+          "unit": "MW"
+        },
+        {
+          "step": 96,
+          "value": 1641.061,
+          "unit": "MW"
+        },
+        {
+          "step": 97,
+          "value": 1344.365,
+          "unit": "MW"
+        },
+        {
+          "step": 98,
+          "value": 1362.98,
+          "unit": "MW"
+        },
+        {
+          "step": 99,
+          "value": 1337.551,
+          "unit": "MW"
+        },
+        {
+          "step": 100,
+          "value": 1365.974,
+          "unit": "MW"
+        },
+        {
+          "step": 101,
+          "value": 1331.993,
+          "unit": "MW"
+        },
+        {
+          "step": 102,
+          "value": 1358.874,
+          "unit": "MW"
+        },
+        {
+          "step": 103,
+          "value": 1317.039,
+          "unit": "MW"
+        },
+        {
+          "step": 104,
+          "value": 1418.49,
+          "unit": "MW"
+        },
+        {
+          "step": 105,
+          "value": 1503.551,
+          "unit": "MW"
+        },
+        {
+          "step": 106,
+          "value": 1427.061,
+          "unit": "MW"
+        },
+        {
+          "step": 107,
+          "value": 1350.203,
+          "unit": "MW"
+        },
+        {
+          "step": 108,
+          "value": 1421.414,
+          "unit": "MW"
+        },
+        {
+          "step": 109,
+          "value": 1491.422,
+          "unit": "MW"
+        },
+        {
+          "step": 110,
+          "value": 1546.95,
+          "unit": "MW"
+        },
+        {
+          "step": 111,
+          "value": 1577.162,
+          "unit": "MW"
+        },
+        {
+          "step": 112,
+          "value": 1514.332,
+          "unit": "MW"
+        },
+        {
+          "step": 113,
+          "value": 1509.569,
+          "unit": "MW"
+        },
+        {
+          "step": 114,
+          "value": 1634.78,
+          "unit": "MW"
+        },
+        {
+          "step": 115,
+          "value": 1840.674,
+          "unit": "MW"
+        },
+        {
+          "step": 116,
+          "value": 2082.382,
+          "unit": "MW"
+        },
+        {
+          "step": 117,
+          "value": 2187.174,
+          "unit": "MW"
+        },
+        {
+          "step": 118,
+          "value": 2028.043,
+          "unit": "MW"
+        },
+        {
+          "step": 119,
+          "value": 1846.227,
+          "unit": "MW"
+        },
+        {
+          "step": 120,
+          "value": 1620.44,
+          "unit": "MW"
+        },
+        {
+          "step": 121,
+          "value": 1348.627,
+          "unit": "MW"
+        },
+        {
+          "step": 122,
+          "value": 1340.109,
+          "unit": "MW"
+        },
+        {
+          "step": 123,
+          "value": 1337.83,
+          "unit": "MW"
+        },
+        {
+          "step": 124,
+          "value": 1342.912,
+          "unit": "MW"
+        },
+        {
+          "step": 125,
+          "value": 1339.324,
+          "unit": "MW"
+        },
+        {
+          "step": 126,
+          "value": 1348.688,
+          "unit": "MW"
+        },
+        {
+          "step": 127,
+          "value": 1321.216,
+          "unit": "MW"
+        },
+        {
+          "step": 128,
+          "value": 1435.958,
+          "unit": "MW"
+        },
+        {
+          "step": 129,
+          "value": 1472.096,
+          "unit": "MW"
+        },
+        {
+          "step": 130,
+          "value": 1423.994,
+          "unit": "MW"
+        },
+        {
+          "step": 131,
+          "value": 1377.152,
+          "unit": "MW"
+        },
+        {
+          "step": 132,
+          "value": 1416.224,
+          "unit": "MW"
+        },
+        {
+          "step": 133,
+          "value": 1490.421,
+          "unit": "MW"
+        },
+        {
+          "step": 134,
+          "value": 1525.881,
+          "unit": "MW"
+        },
+        {
+          "step": 135,
+          "value": 1584.054,
+          "unit": "MW"
+        },
+        {
+          "step": 136,
+          "value": 1539.39,
+          "unit": "MW"
+        },
+        {
+          "step": 137,
+          "value": 1505.541,
+          "unit": "MW"
+        },
+        {
+          "step": 138,
+          "value": 1612.978,
+          "unit": "MW"
+        },
+        {
+          "step": 139,
+          "value": 1855.94,
+          "unit": "MW"
+        },
+        {
+          "step": 140,
+          "value": 2075.153,
+          "unit": "MW"
+        },
+        {
+          "step": 141,
+          "value": 2177.477,
+          "unit": "MW"
+        },
+        {
+          "step": 142,
+          "value": 2025.612,
+          "unit": "MW"
+        },
+        {
+          "step": 143,
+          "value": 1842.609,
+          "unit": "MW"
+        },
+        {
+          "step": 144,
+          "value": 1598.309,
+          "unit": "MW"
+        },
+        {
+          "step": 145,
+          "value": 1350.3,
+          "unit": "MW"
+        },
+        {
+          "step": 146,
+          "value": 1354.686,
+          "unit": "MW"
+        },
+        {
+          "step": 147,
+          "value": 1329.05,
+          "unit": "MW"
+        },
+        {
+          "step": 148,
+          "value": 1362.575,
+          "unit": "MW"
+        },
+        {
+          "step": 149,
+          "value": 1325.808,
+          "unit": "MW"
+        },
+        {
+          "step": 150,
+          "value": 1365.501,
+          "unit": "MW"
+        },
+        {
+          "step": 151,
+          "value": 1314.199,
+          "unit": "MW"
+        },
+        {
+          "step": 152,
+          "value": 1420.331,
+          "unit": "MW"
+        },
+        {
+          "step": 153,
+          "value": 1502.473,
+          "unit": "MW"
+        },
+        {
+          "step": 154,
+          "value": 1429.388,
+          "unit": "MW"
+        },
+        {
+          "step": 155,
+          "value": 1353.177,
+          "unit": "MW"
+        },
+        {
+          "step": 156,
+          "value": 1424.442,
+          "unit": "MW"
+        },
+        {
+          "step": 157,
+          "value": 1495.76,
+          "unit": "MW"
+        },
+        {
+          "step": 158,
+          "value": 1549.826,
+          "unit": "MW"
+        },
+        {
+          "step": 159,
+          "value": 1568.668,
+          "unit": "MW"
+        },
+        {
+          "step": 160,
+          "value": 1523.255,
+          "unit": "MW"
+        },
+        {
+          "step": 161,
+          "value": 1507.589,
+          "unit": "MW"
+        },
+        {
+          "step": 162,
+          "value": 1603.644,
+          "unit": "MW"
+        },
+        {
+          "step": 163,
+          "value": 1839.218,
+          "unit": "MW"
+        },
+        {
+          "step": 164,
+          "value": 2074.321,
+          "unit": "MW"
+        },
+        {
+          "step": 165,
+          "value": 2194.076,
+          "unit": "MW"
+        },
+        {
+          "step": 166,
+          "value": 2026.238,
+          "unit": "MW"
+        },
+        {
+          "step": 167,
+          "value": 1850.54,
+          "unit": "MW"
+        },
+        {
+          "step": 168,
+          "value": 1622.072,
+          "unit": "MW"
+        }
+      ]
+    }
+  },
+  "flexibility": {
+    "model_name": "RandomForestRegressor+LinearRegression",
+    "horizons": {
+      "1h": [
+        {
+          "step": 1,
+          "value": 161.703,
+          "unit": "MW"
+        }
+      ],
+      "6h": [
+        {
+          "step": 1,
+          "value": 161.703,
+          "unit": "MW"
+        },
+        {
+          "step": 2,
+          "value": 161.176,
+          "unit": "MW"
+        },
+        {
+          "step": 3,
+          "value": 161.558,
+          "unit": "MW"
+        },
+        {
+          "step": 4,
+          "value": 161.387,
+          "unit": "MW"
+        },
+        {
+          "step": 5,
+          "value": 159.411,
+          "unit": "MW"
+        },
+        {
+          "step": 6,
+          "value": 160.261,
+          "unit": "MW"
+        }
+      ],
+      "24h": [
+        {
+          "step": 1,
+          "value": 161.703,
+          "unit": "MW"
+        },
+        {
+          "step": 2,
+          "value": 161.176,
+          "unit": "MW"
+        },
+        {
+          "step": 3,
+          "value": 161.558,
+          "unit": "MW"
+        },
+        {
+          "step": 4,
+          "value": 161.387,
+          "unit": "MW"
+        },
+        {
+          "step": 5,
+          "value": 159.411,
+          "unit": "MW"
+        },
+        {
+          "step": 6,
+          "value": 160.261,
+          "unit": "MW"
+        },
+        {
+          "step": 7,
+          "value": 159.064,
+          "unit": "MW"
+        },
+        {
+          "step": 8,
+          "value": 179.919,
+          "unit": "MW"
+        },
+        {
+          "step": 9,
+          "value": 178.449,
+          "unit": "MW"
+        },
+        {
+          "step": 10,
+          "value": 173.892,
+          "unit": "MW"
+        },
+        {
+          "step": 11,
+          "value": 163.373,
+          "unit": "MW"
+        },
+        {
+          "step": 12,
+          "value": 167.895,
+          "unit": "MW"
+        },
+        {
+          "step": 13,
+          "value": 181.243,
+          "unit": "MW"
+        },
+        {
+          "step": 14,
+          "value": 188.046,
+          "unit": "MW"
+        },
+        {
+          "step": 15,
+          "value": 191.387,
+          "unit": "MW"
+        },
+        {
+          "step": 16,
+          "value": 181.946,
+          "unit": "MW"
+        },
+        {
+          "step": 17,
+          "value": 183.183,
+          "unit": "MW"
+        },
+        {
+          "step": 18,
+          "value": 194.546,
+          "unit": "MW"
+        },
+        {
+          "step": 19,
+          "value": 223.53,
+          "unit": "MW"
+        },
+        {
+          "step": 20,
+          "value": 248.474,
+          "unit": "MW"
+        },
+        {
+          "step": 21,
+          "value": 249.45,
+          "unit": "MW"
+        },
+        {
+          "step": 22,
+          "value": 227.647,
+          "unit": "MW"
+        },
+        {
+          "step": 23,
+          "value": 226.58,
+          "unit": "MW"
+        },
+        {
+          "step": 24,
+          "value": 219.611,
+          "unit": "MW"
+        }
+      ],
+      "7d": [
+        {
+          "step": 1,
+          "value": 161.703,
+          "unit": "MW"
+        },
+        {
+          "step": 2,
+          "value": 161.176,
+          "unit": "MW"
+        },
+        {
+          "step": 3,
+          "value": 161.558,
+          "unit": "MW"
+        },
+        {
+          "step": 4,
+          "value": 161.387,
+          "unit": "MW"
+        },
+        {
+          "step": 5,
+          "value": 159.411,
+          "unit": "MW"
+        },
+        {
+          "step": 6,
+          "value": 160.261,
+          "unit": "MW"
+        },
+        {
+          "step": 7,
+          "value": 159.064,
+          "unit": "MW"
+        },
+        {
+          "step": 8,
+          "value": 179.919,
+          "unit": "MW"
+        },
+        {
+          "step": 9,
+          "value": 178.449,
+          "unit": "MW"
+        },
+        {
+          "step": 10,
+          "value": 173.892,
+          "unit": "MW"
+        },
+        {
+          "step": 11,
+          "value": 163.373,
+          "unit": "MW"
+        },
+        {
+          "step": 12,
+          "value": 167.895,
+          "unit": "MW"
+        },
+        {
+          "step": 13,
+          "value": 181.243,
+          "unit": "MW"
+        },
+        {
+          "step": 14,
+          "value": 188.046,
+          "unit": "MW"
+        },
+        {
+          "step": 15,
+          "value": 191.387,
+          "unit": "MW"
+        },
+        {
+          "step": 16,
+          "value": 181.946,
+          "unit": "MW"
+        },
+        {
+          "step": 17,
+          "value": 183.183,
+          "unit": "MW"
+        },
+        {
+          "step": 18,
+          "value": 194.546,
+          "unit": "MW"
+        },
+        {
+          "step": 19,
+          "value": 223.53,
+          "unit": "MW"
+        },
+        {
+          "step": 20,
+          "value": 248.474,
+          "unit": "MW"
+        },
+        {
+          "step": 21,
+          "value": 249.45,
+          "unit": "MW"
+        },
+        {
+          "step": 22,
+          "value": 227.647,
+          "unit": "MW"
+        },
+        {
+          "step": 23,
+          "value": 226.58,
+          "unit": "MW"
+        },
+        {
+          "step": 24,
+          "value": 219.611,
+          "unit": "MW"
+        },
+        {
+          "step": 25,
+          "value": 158.429,
+          "unit": "MW"
+        },
+        {
+          "step": 26,
+          "value": 162.132,
+          "unit": "MW"
+        },
+        {
+          "step": 27,
+          "value": 162.219,
+          "unit": "MW"
+        },
+        {
+          "step": 28,
+          "value": 162.69,
+          "unit": "MW"
+        },
+        {
+          "step": 29,
+          "value": 162.639,
+          "unit": "MW"
+        },
+        {
+          "step": 30,
+          "value": 159.677,
+          "unit": "MW"
+        },
+        {
+          "step": 31,
+          "value": 158.952,
+          "unit": "MW"
+        },
+        {
+          "step": 32,
+          "value": 172.75,
+          "unit": "MW"
+        },
+        {
+          "step": 33,
+          "value": 174.734,
+          "unit": "MW"
+        },
+        {
+          "step": 34,
+          "value": 170.921,
+          "unit": "MW"
+        },
+        {
+          "step": 35,
+          "value": 166.592,
+          "unit": "MW"
+        },
+        {
+          "step": 36,
+          "value": 171.936,
+          "unit": "MW"
+        },
+        {
+          "step": 37,
+          "value": 171.36,
+          "unit": "MW"
+        },
+        {
+          "step": 38,
+          "value": 180.841,
+          "unit": "MW"
+        },
+        {
+          "step": 39,
+          "value": 185.244,
+          "unit": "MW"
+        },
+        {
+          "step": 40,
+          "value": 186.355,
+          "unit": "MW"
+        },
+        {
+          "step": 41,
+          "value": 184.205,
+          "unit": "MW"
+        },
+        {
+          "step": 42,
+          "value": 193.987,
+          "unit": "MW"
+        },
+        {
+          "step": 43,
+          "value": 222.062,
+          "unit": "MW"
+        },
+        {
+          "step": 44,
+          "value": 249.119,
+          "unit": "MW"
+        },
+        {
+          "step": 45,
+          "value": 256.74,
+          "unit": "MW"
+        },
+        {
+          "step": 46,
+          "value": 244.08,
+          "unit": "MW"
+        },
+        {
+          "step": 47,
+          "value": 223.918,
+          "unit": "MW"
+        },
+        {
+          "step": 48,
+          "value": 222.83,
+          "unit": "MW"
+        },
+        {
+          "step": 49,
+          "value": 159.127,
+          "unit": "MW"
+        },
+        {
+          "step": 50,
+          "value": 161.349,
+          "unit": "MW"
+        },
+        {
+          "step": 51,
+          "value": 163.772,
+          "unit": "MW"
+        },
+        {
+          "step": 52,
+          "value": 162.411,
+          "unit": "MW"
+        },
+        {
+          "step": 53,
+          "value": 163.41,
+          "unit": "MW"
+        },
+        {
+          "step": 54,
+          "value": 160.469,
+          "unit": "MW"
+        },
+        {
+          "step": 55,
+          "value": 158.834,
+          "unit": "MW"
+        },
+        {
+          "step": 56,
+          "value": 173.257,
+          "unit": "MW"
+        },
+        {
+          "step": 57,
+          "value": 173.758,
+          "unit": "MW"
+        },
+        {
+          "step": 58,
+          "value": 170.667,
+          "unit": "MW"
+        },
+        {
+          "step": 59,
+          "value": 167.057,
+          "unit": "MW"
+        },
+        {
+          "step": 60,
+          "value": 171.641,
+          "unit": "MW"
+        },
+        {
+          "step": 61,
+          "value": 171.786,
+          "unit": "MW"
+        },
+        {
+          "step": 62,
+          "value": 183.446,
+          "unit": "MW"
+        },
+        {
+          "step": 63,
+          "value": 187.287,
+          "unit": "MW"
+        },
+        {
+          "step": 64,
+          "value": 187.073,
+          "unit": "MW"
+        },
+        {
+          "step": 65,
+          "value": 181.3,
+          "unit": "MW"
+        },
+        {
+          "step": 66,
+          "value": 194.692,
+          "unit": "MW"
+        },
+        {
+          "step": 67,
+          "value": 221.006,
+          "unit": "MW"
+        },
+        {
+          "step": 68,
+          "value": 252.616,
+          "unit": "MW"
+        },
+        {
+          "step": 69,
+          "value": 253.176,
+          "unit": "MW"
+        },
+        {
+          "step": 70,
+          "value": 245.797,
+          "unit": "MW"
+        },
+        {
+          "step": 71,
+          "value": 220.048,
+          "unit": "MW"
+        },
+        {
+          "step": 72,
+          "value": 222.133,
+          "unit": "MW"
+        },
+        {
+          "step": 73,
+          "value": 160.165,
+          "unit": "MW"
+        },
+        {
+          "step": 74,
+          "value": 161.309,
+          "unit": "MW"
+        },
+        {
+          "step": 75,
+          "value": 161.625,
+          "unit": "MW"
+        },
+        {
+          "step": 76,
+          "value": 164.579,
+          "unit": "MW"
+        },
+        {
+          "step": 77,
+          "value": 161.415,
+          "unit": "MW"
+        },
+        {
+          "step": 78,
+          "value": 162.925,
+          "unit": "MW"
+        },
+        {
+          "step": 79,
+          "value": 158.575,
+          "unit": "MW"
+        },
+        {
+          "step": 80,
+          "value": 172.521,
+          "unit": "MW"
+        },
+        {
+          "step": 81,
+          "value": 174.626,
+          "unit": "MW"
+        },
+        {
+          "step": 82,
+          "value": 169.989,
+          "unit": "MW"
+        },
+        {
+          "step": 83,
+          "value": 168.204,
+          "unit": "MW"
+        },
+        {
+          "step": 84,
+          "value": 169.757,
+          "unit": "MW"
+        },
+        {
+          "step": 85,
+          "value": 174.24,
+          "unit": "MW"
+        },
+        {
+          "step": 86,
+          "value": 186.692,
+          "unit": "MW"
+        },
+        {
+          "step": 87,
+          "value": 186.15,
+          "unit": "MW"
+        },
+        {
+          "step": 88,
+          "value": 183.623,
+          "unit": "MW"
+        },
+        {
+          "step": 89,
+          "value": 181.874,
+          "unit": "MW"
+        },
+        {
+          "step": 90,
+          "value": 195.595,
+          "unit": "MW"
+        },
+        {
+          "step": 91,
+          "value": 222.722,
+          "unit": "MW"
+        },
+        {
+          "step": 92,
+          "value": 252.294,
+          "unit": "MW"
+        },
+        {
+          "step": 93,
+          "value": 257.548,
+          "unit": "MW"
+        },
+        {
+          "step": 94,
+          "value": 247.614,
+          "unit": "MW"
+        },
+        {
+          "step": 95,
+          "value": 219.349,
+          "unit": "MW"
+        },
+        {
+          "step": 96,
+          "value": 221.872,
+          "unit": "MW"
+        },
+        {
+          "step": 97,
+          "value": 159.699,
+          "unit": "MW"
+        },
+        {
+          "step": 98,
+          "value": 160.654,
+          "unit": "MW"
+        },
+        {
+          "step": 99,
+          "value": 160.931,
+          "unit": "MW"
+        },
+        {
+          "step": 100,
+          "value": 158.485,
+          "unit": "MW"
+        },
+        {
+          "step": 101,
+          "value": 162.282,
+          "unit": "MW"
+        },
+        {
+          "step": 102,
+          "value": 160.932,
+          "unit": "MW"
+        },
+        {
+          "step": 103,
+          "value": 161.513,
+          "unit": "MW"
+        },
+        {
+          "step": 104,
+          "value": 172.343,
+          "unit": "MW"
+        },
+        {
+          "step": 105,
+          "value": 174.87,
+          "unit": "MW"
+        },
+        {
+          "step": 106,
+          "value": 170.33,
+          "unit": "MW"
+        },
+        {
+          "step": 107,
+          "value": 169.811,
+          "unit": "MW"
+        },
+        {
+          "step": 108,
+          "value": 170.27,
+          "unit": "MW"
+        },
+        {
+          "step": 109,
+          "value": 174.674,
+          "unit": "MW"
+        },
+        {
+          "step": 110,
+          "value": 184.518,
+          "unit": "MW"
+        },
+        {
+          "step": 111,
+          "value": 186.875,
+          "unit": "MW"
+        },
+        {
+          "step": 112,
+          "value": 185.206,
+          "unit": "MW"
+        },
+        {
+          "step": 113,
+          "value": 181.255,
+          "unit": "MW"
+        },
+        {
+          "step": 114,
+          "value": 196.984,
+          "unit": "MW"
+        },
+        {
+          "step": 115,
+          "value": 221.247,
+          "unit": "MW"
+        },
+        {
+          "step": 116,
+          "value": 252.517,
+          "unit": "MW"
+        },
+        {
+          "step": 117,
+          "value": 255.557,
+          "unit": "MW"
+        },
+        {
+          "step": 118,
+          "value": 249.4,
+          "unit": "MW"
+        },
+        {
+          "step": 119,
+          "value": 218.528,
+          "unit": "MW"
+        },
+        {
+          "step": 120,
+          "value": 222.487,
+          "unit": "MW"
+        },
+        {
+          "step": 121,
+          "value": 160.261,
+          "unit": "MW"
+        },
+        {
+          "step": 122,
+          "value": 161.231,
+          "unit": "MW"
+        },
+        {
+          "step": 123,
+          "value": 160.886,
+          "unit": "MW"
+        },
+        {
+          "step": 124,
+          "value": 160.159,
+          "unit": "MW"
+        },
+        {
+          "step": 125,
+          "value": 160.351,
+          "unit": "MW"
+        },
+        {
+          "step": 126,
+          "value": 160.641,
+          "unit": "MW"
+        },
+        {
+          "step": 127,
+          "value": 160.343,
+          "unit": "MW"
+        },
+        {
+          "step": 128,
+          "value": 173.231,
+          "unit": "MW"
+        },
+        {
+          "step": 129,
+          "value": 174.489,
+          "unit": "MW"
+        },
+        {
+          "step": 130,
+          "value": 170.14,
+          "unit": "MW"
+        },
+        {
+          "step": 131,
+          "value": 169.34,
+          "unit": "MW"
+        },
+        {
+          "step": 132,
+          "value": 169.264,
+          "unit": "MW"
+        },
+        {
+          "step": 133,
+          "value": 175.45,
+          "unit": "MW"
+        },
+        {
+          "step": 134,
+          "value": 185.603,
+          "unit": "MW"
+        },
+        {
+          "step": 135,
+          "value": 186.54,
+          "unit": "MW"
+        },
+        {
+          "step": 136,
+          "value": 184.069,
+          "unit": "MW"
+        },
+        {
+          "step": 137,
+          "value": 182.239,
+          "unit": "MW"
+        },
+        {
+          "step": 138,
+          "value": 197.578,
+          "unit": "MW"
+        },
+        {
+          "step": 139,
+          "value": 223.085,
+          "unit": "MW"
+        },
+        {
+          "step": 140,
+          "value": 254.119,
+          "unit": "MW"
+        },
+        {
+          "step": 141,
+          "value": 255.75,
+          "unit": "MW"
+        },
+        {
+          "step": 142,
+          "value": 247.717,
+          "unit": "MW"
+        },
+        {
+          "step": 143,
+          "value": 217.258,
+          "unit": "MW"
+        },
+        {
+          "step": 144,
+          "value": 221.847,
+          "unit": "MW"
+        },
+        {
+          "step": 145,
+          "value": 161.192,
+          "unit": "MW"
+        },
+        {
+          "step": 146,
+          "value": 161.262,
+          "unit": "MW"
+        },
+        {
+          "step": 147,
+          "value": 160.741,
+          "unit": "MW"
+        },
+        {
+          "step": 148,
+          "value": 160.56,
+          "unit": "MW"
+        },
+        {
+          "step": 149,
+          "value": 160.737,
+          "unit": "MW"
+        },
+        {
+          "step": 150,
+          "value": 160.844,
+          "unit": "MW"
+        },
+        {
+          "step": 151,
+          "value": 160.029,
+          "unit": "MW"
+        },
+        {
+          "step": 152,
+          "value": 173.288,
+          "unit": "MW"
+        },
+        {
+          "step": 153,
+          "value": 174.583,
+          "unit": "MW"
+        },
+        {
+          "step": 154,
+          "value": 170.167,
+          "unit": "MW"
+        },
+        {
+          "step": 155,
+          "value": 169.349,
+          "unit": "MW"
+        },
+        {
+          "step": 156,
+          "value": 168.615,
+          "unit": "MW"
+        },
+        {
+          "step": 157,
+          "value": 176.263,
+          "unit": "MW"
+        },
+        {
+          "step": 158,
+          "value": 185.672,
+          "unit": "MW"
+        },
+        {
+          "step": 159,
+          "value": 186.071,
+          "unit": "MW"
+        },
+        {
+          "step": 160,
+          "value": 185.326,
+          "unit": "MW"
+        },
+        {
+          "step": 161,
+          "value": 181.887,
+          "unit": "MW"
+        },
+        {
+          "step": 162,
+          "value": 197.833,
+          "unit": "MW"
+        },
+        {
+          "step": 163,
+          "value": 221.445,
+          "unit": "MW"
+        },
+        {
+          "step": 164,
+          "value": 255.156,
+          "unit": "MW"
+        },
+        {
+          "step": 165,
+          "value": 258.826,
+          "unit": "MW"
+        },
+        {
+          "step": 166,
+          "value": 247.056,
+          "unit": "MW"
+        },
+        {
+          "step": 167,
+          "value": 217.142,
+          "unit": "MW"
+        },
+        {
+          "step": 168,
+          "value": 222.122,
+          "unit": "MW"
+        }
+      ]
+    }
+  },
+  "solar": {
+    "model_name": "RandomForestRegressor+LinearRegression",
+    "horizons": {
+      "1h": [
+        {
+          "step": 1,
+          "value": 0.001,
+          "unit": "MW"
+        }
+      ],
+      "6h": [
+        {
+          "step": 1,
+          "value": 0.001,
+          "unit": "MW"
+        },
+        {
+          "step": 2,
+          "value": 0.002,
+          "unit": "MW"
+        },
+        {
+          "step": 3,
+          "value": 0.003,
+          "unit": "MW"
+        },
+        {
+          "step": 4,
+          "value": 0.004,
+          "unit": "MW"
+        },
+        {
+          "step": 5,
+          "value": 0.005,
+          "unit": "MW"
+        },
+        {
+          "step": 6,
+          "value": 0.007,
+          "unit": "MW"
+        }
+      ],
+      "24h": [
+        {
+          "step": 1,
+          "value": 0.001,
+          "unit": "MW"
+        },
+        {
+          "step": 2,
+          "value": 0.002,
+          "unit": "MW"
+        },
+        {
+          "step": 3,
+          "value": 0.003,
+          "unit": "MW"
+        },
+        {
+          "step": 4,
+          "value": 0.004,
+          "unit": "MW"
+        },
+        {
+          "step": 5,
+          "value": 0.005,
+          "unit": "MW"
+        },
+        {
+          "step": 6,
+          "value": 0.007,
+          "unit": "MW"
+        },
+        {
+          "step": 7,
+          "value": 36.864,
+          "unit": "MW"
+        },
+        {
+          "step": 8,
+          "value": 67.842,
+          "unit": "MW"
+        },
+        {
+          "step": 9,
+          "value": 117.571,
+          "unit": "MW"
+        },
+        {
+          "step": 10,
+          "value": 181.694,
+          "unit": "MW"
+        },
+        {
+          "step": 11,
+          "value": 259.368,
+          "unit": "MW"
+        },
+        {
+          "step": 12,
+          "value": 321.538,
+          "unit": "MW"
+        },
+        {
+          "step": 13,
+          "value": 389.009,
+          "unit": "MW"
+        },
+        {
+          "step": 14,
+          "value": 393.763,
+          "unit": "MW"
+        },
+        {
+          "step": 15,
+          "value": 399.099,
+          "unit": "MW"
+        },
+        {
+          "step": 16,
+          "value": 319.674,
+          "unit": "MW"
+        },
+        {
+          "step": 17,
+          "value": 256.533,
+          "unit": "MW"
+        },
+        {
+          "step": 18,
+          "value": 182.21,
+          "unit": "MW"
+        },
+        {
+          "step": 19,
+          "value": 118.288,
+          "unit": "MW"
+        },
+        {
+          "step": 20,
+          "value": 0.022,
+          "unit": "MW"
+        },
+        {
+          "step": 21,
+          "value": 0.023,
+          "unit": "MW"
+        },
+        {
+          "step": 22,
+          "value": 0.024,
+          "unit": "MW"
+        },
+        {
+          "step": 23,
+          "value": 0.025,
+          "unit": "MW"
+        },
+        {
+          "step": 24,
+          "value": 0.026,
+          "unit": "MW"
+        }
+      ],
+      "7d": [
+        {
+          "step": 1,
+          "value": 0.001,
+          "unit": "MW"
+        },
+        {
+          "step": 2,
+          "value": 0.002,
+          "unit": "MW"
+        },
+        {
+          "step": 3,
+          "value": 0.003,
+          "unit": "MW"
+        },
+        {
+          "step": 4,
+          "value": 0.004,
+          "unit": "MW"
+        },
+        {
+          "step": 5,
+          "value": 0.005,
+          "unit": "MW"
+        },
+        {
+          "step": 6,
+          "value": 0.007,
+          "unit": "MW"
+        },
+        {
+          "step": 7,
+          "value": 36.864,
+          "unit": "MW"
+        },
+        {
+          "step": 8,
+          "value": 67.842,
+          "unit": "MW"
+        },
+        {
+          "step": 9,
+          "value": 117.571,
+          "unit": "MW"
+        },
+        {
+          "step": 10,
+          "value": 181.694,
+          "unit": "MW"
+        },
+        {
+          "step": 11,
+          "value": 259.368,
+          "unit": "MW"
+        },
+        {
+          "step": 12,
+          "value": 321.538,
+          "unit": "MW"
+        },
+        {
+          "step": 13,
+          "value": 389.009,
+          "unit": "MW"
+        },
+        {
+          "step": 14,
+          "value": 393.763,
+          "unit": "MW"
+        },
+        {
+          "step": 15,
+          "value": 399.099,
+          "unit": "MW"
+        },
+        {
+          "step": 16,
+          "value": 319.674,
+          "unit": "MW"
+        },
+        {
+          "step": 17,
+          "value": 256.533,
+          "unit": "MW"
+        },
+        {
+          "step": 18,
+          "value": 182.21,
+          "unit": "MW"
+        },
+        {
+          "step": 19,
+          "value": 118.288,
+          "unit": "MW"
+        },
+        {
+          "step": 20,
+          "value": 0.022,
+          "unit": "MW"
+        },
+        {
+          "step": 21,
+          "value": 0.023,
+          "unit": "MW"
+        },
+        {
+          "step": 22,
+          "value": 0.024,
+          "unit": "MW"
+        },
+        {
+          "step": 23,
+          "value": 0.025,
+          "unit": "MW"
+        },
+        {
+          "step": 24,
+          "value": 0.026,
+          "unit": "MW"
+        },
+        {
+          "step": 25,
+          "value": 0.027,
+          "unit": "MW"
+        },
+        {
+          "step": 26,
+          "value": 0.028,
+          "unit": "MW"
+        },
+        {
+          "step": 27,
+          "value": 0.029,
+          "unit": "MW"
+        },
+        {
+          "step": 28,
+          "value": 0.03,
+          "unit": "MW"
+        },
+        {
+          "step": 29,
+          "value": 0.032,
+          "unit": "MW"
+        },
+        {
+          "step": 30,
+          "value": 0.033,
+          "unit": "MW"
+        },
+        {
+          "step": 31,
+          "value": 36.038,
+          "unit": "MW"
+        },
+        {
+          "step": 32,
+          "value": 66.179,
+          "unit": "MW"
+        },
+        {
+          "step": 33,
+          "value": 119.28,
+          "unit": "MW"
+        },
+        {
+          "step": 34,
+          "value": 183.224,
+          "unit": "MW"
+        },
+        {
+          "step": 35,
+          "value": 255.655,
+          "unit": "MW"
+        },
+        {
+          "step": 36,
+          "value": 324.458,
+          "unit": "MW"
+        },
+        {
+          "step": 37,
+          "value": 380.349,
+          "unit": "MW"
+        },
+        {
+          "step": 38,
+          "value": 397.633,
+          "unit": "MW"
+        },
+        {
+          "step": 39,
+          "value": 393.656,
+          "unit": "MW"
+        },
+        {
+          "step": 40,
+          "value": 321.122,
+          "unit": "MW"
+        },
+        {
+          "step": 41,
+          "value": 259.268,
+          "unit": "MW"
+        },
+        {
+          "step": 42,
+          "value": 187.163,
+          "unit": "MW"
+        },
+        {
+          "step": 43,
+          "value": 119.784,
+          "unit": "MW"
+        },
+        {
+          "step": 44,
+          "value": 0.048,
+          "unit": "MW"
+        },
+        {
+          "step": 45,
+          "value": 0.049,
+          "unit": "MW"
+        },
+        {
+          "step": 46,
+          "value": 0.05,
+          "unit": "MW"
+        },
+        {
+          "step": 47,
+          "value": 0.051,
+          "unit": "MW"
+        },
+        {
+          "step": 48,
+          "value": 0.052,
+          "unit": "MW"
+        },
+        {
+          "step": 49,
+          "value": 0.053,
+          "unit": "MW"
+        },
+        {
+          "step": 50,
+          "value": 0.054,
+          "unit": "MW"
+        },
+        {
+          "step": 51,
+          "value": 0.056,
+          "unit": "MW"
+        },
+        {
+          "step": 52,
+          "value": 0.057,
+          "unit": "MW"
+        },
+        {
+          "step": 53,
+          "value": 0.058,
+          "unit": "MW"
+        },
+        {
+          "step": 54,
+          "value": 0.059,
+          "unit": "MW"
+        },
+        {
+          "step": 55,
+          "value": 36.976,
+          "unit": "MW"
+        },
+        {
+          "step": 56,
+          "value": 70.412,
+          "unit": "MW"
+        },
+        {
+          "step": 57,
+          "value": 119.471,
+          "unit": "MW"
+        },
+        {
+          "step": 58,
+          "value": 182.79,
+          "unit": "MW"
+        },
+        {
+          "step": 59,
+          "value": 257.329,
+          "unit": "MW"
+        },
+        {
+          "step": 60,
+          "value": 324.947,
+          "unit": "MW"
+        },
+        {
+          "step": 61,
+          "value": 389.985,
+          "unit": "MW"
+        },
+        {
+          "step": 62,
+          "value": 396.198,
+          "unit": "MW"
+        },
+        {
+          "step": 63,
+          "value": 397.354,
+          "unit": "MW"
+        },
+        {
+          "step": 64,
+          "value": 318.829,
+          "unit": "MW"
+        },
+        {
+          "step": 65,
+          "value": 258.771,
+          "unit": "MW"
+        },
+        {
+          "step": 66,
+          "value": 182.667,
+          "unit": "MW"
+        },
+        {
+          "step": 67,
+          "value": 117.146,
+          "unit": "MW"
+        },
+        {
+          "step": 68,
+          "value": 0.074,
+          "unit": "MW"
+        },
+        {
+          "step": 69,
+          "value": 0.075,
+          "unit": "MW"
+        },
+        {
+          "step": 70,
+          "value": 0.076,
+          "unit": "MW"
+        },
+        {
+          "step": 71,
+          "value": 0.077,
+          "unit": "MW"
+        },
+        {
+          "step": 72,
+          "value": 0.078,
+          "unit": "MW"
+        },
+        {
+          "step": 73,
+          "value": 0.08,
+          "unit": "MW"
+        },
+        {
+          "step": 74,
+          "value": 0.081,
+          "unit": "MW"
+        },
+        {
+          "step": 75,
+          "value": 0.082,
+          "unit": "MW"
+        },
+        {
+          "step": 76,
+          "value": 0.083,
+          "unit": "MW"
+        },
+        {
+          "step": 77,
+          "value": 0.084,
+          "unit": "MW"
+        },
+        {
+          "step": 78,
+          "value": 0.085,
+          "unit": "MW"
+        },
+        {
+          "step": 79,
+          "value": 36.235,
+          "unit": "MW"
+        },
+        {
+          "step": 80,
+          "value": 68.782,
+          "unit": "MW"
+        },
+        {
+          "step": 81,
+          "value": 119.831,
+          "unit": "MW"
+        },
+        {
+          "step": 82,
+          "value": 182.724,
+          "unit": "MW"
+        },
+        {
+          "step": 83,
+          "value": 258.009,
+          "unit": "MW"
+        },
+        {
+          "step": 84,
+          "value": 324.774,
+          "unit": "MW"
+        },
+        {
+          "step": 85,
+          "value": 398.079,
+          "unit": "MW"
+        },
+        {
+          "step": 86,
+          "value": 398.061,
+          "unit": "MW"
+        },
+        {
+          "step": 87,
+          "value": 395.361,
+          "unit": "MW"
+        },
+        {
+          "step": 88,
+          "value": 310.397,
+          "unit": "MW"
+        },
+        {
+          "step": 89,
+          "value": 256.727,
+          "unit": "MW"
+        },
+        {
+          "step": 90,
+          "value": 187.175,
+          "unit": "MW"
+        },
+        {
+          "step": 91,
+          "value": 119.123,
+          "unit": "MW"
+        },
+        {
+          "step": 92,
+          "value": 0.1,
+          "unit": "MW"
+        },
+        {
+          "step": 93,
+          "value": 0.101,
+          "unit": "MW"
+        },
+        {
+          "step": 94,
+          "value": 0.102,
+          "unit": "MW"
+        },
+        {
+          "step": 95,
+          "value": 0.103,
+          "unit": "MW"
+        },
+        {
+          "step": 96,
+          "value": 0.105,
+          "unit": "MW"
+        },
+        {
+          "step": 97,
+          "value": 0.106,
+          "unit": "MW"
+        },
+        {
+          "step": 98,
+          "value": 0.107,
+          "unit": "MW"
+        },
+        {
+          "step": 99,
+          "value": 0.108,
+          "unit": "MW"
+        },
+        {
+          "step": 100,
+          "value": 0.109,
+          "unit": "MW"
+        },
+        {
+          "step": 101,
+          "value": 0.11,
+          "unit": "MW"
+        },
+        {
+          "step": 102,
+          "value": 0.111,
+          "unit": "MW"
+        },
+        {
+          "step": 103,
+          "value": 36.257,
+          "unit": "MW"
+        },
+        {
+          "step": 104,
+          "value": 68.241,
+          "unit": "MW"
+        },
+        {
+          "step": 105,
+          "value": 121.02,
+          "unit": "MW"
+        },
+        {
+          "step": 106,
+          "value": 183.231,
+          "unit": "MW"
+        },
+        {
+          "step": 107,
+          "value": 261.172,
+          "unit": "MW"
+        },
+        {
+          "step": 108,
+          "value": 324.712,
+          "unit": "MW"
+        },
+        {
+          "step": 109,
+          "value": 390.485,
+          "unit": "MW"
+        },
+        {
+          "step": 110,
+          "value": 395.276,
+          "unit": "MW"
+        },
+        {
+          "step": 111,
+          "value": 396.824,
+          "unit": "MW"
+        },
+        {
+          "step": 112,
+          "value": 320.6,
+          "unit": "MW"
+        },
+        {
+          "step": 113,
+          "value": 257.099,
+          "unit": "MW"
+        },
+        {
+          "step": 114,
+          "value": 181.343,
+          "unit": "MW"
+        },
+        {
+          "step": 115,
+          "value": 118.099,
+          "unit": "MW"
+        },
+        {
+          "step": 116,
+          "value": 0.126,
+          "unit": "MW"
+        },
+        {
+          "step": 117,
+          "value": 0.127,
+          "unit": "MW"
+        },
+        {
+          "step": 118,
+          "value": 0.129,
+          "unit": "MW"
+        },
+        {
+          "step": 119,
+          "value": 0.13,
+          "unit": "MW"
+        },
+        {
+          "step": 120,
+          "value": 0.131,
+          "unit": "MW"
+        },
+        {
+          "step": 121,
+          "value": 0.132,
+          "unit": "MW"
+        },
+        {
+          "step": 122,
+          "value": 0.133,
+          "unit": "MW"
+        },
+        {
+          "step": 123,
+          "value": 0.134,
+          "unit": "MW"
+        },
+        {
+          "step": 124,
+          "value": 0.135,
+          "unit": "MW"
+        },
+        {
+          "step": 125,
+          "value": 0.136,
+          "unit": "MW"
+        },
+        {
+          "step": 126,
+          "value": 0.137,
+          "unit": "MW"
+        },
+        {
+          "step": 127,
+          "value": 36.277,
+          "unit": "MW"
+        },
+        {
+          "step": 128,
+          "value": 67.131,
+          "unit": "MW"
+        },
+        {
+          "step": 129,
+          "value": 120.97,
+          "unit": "MW"
+        },
+        {
+          "step": 130,
+          "value": 184.421,
+          "unit": "MW"
+        },
+        {
+          "step": 131,
+          "value": 258.135,
+          "unit": "MW"
+        },
+        {
+          "step": 132,
+          "value": 323.567,
+          "unit": "MW"
+        },
+        {
+          "step": 133,
+          "value": 392.975,
+          "unit": "MW"
+        },
+        {
+          "step": 134,
+          "value": 397.766,
+          "unit": "MW"
+        },
+        {
+          "step": 135,
+          "value": 397.609,
+          "unit": "MW"
+        },
+        {
+          "step": 136,
+          "value": 317.91,
+          "unit": "MW"
+        },
+        {
+          "step": 137,
+          "value": 255.783,
+          "unit": "MW"
+        },
+        {
+          "step": 138,
+          "value": 186.811,
+          "unit": "MW"
+        },
+        {
+          "step": 139,
+          "value": 117.372,
+          "unit": "MW"
+        },
+        {
+          "step": 140,
+          "value": 0.152,
+          "unit": "MW"
+        },
+        {
+          "step": 141,
+          "value": 0.154,
+          "unit": "MW"
+        },
+        {
+          "step": 142,
+          "value": 0.155,
+          "unit": "MW"
+        },
+        {
+          "step": 143,
+          "value": 0.156,
+          "unit": "MW"
+        },
+        {
+          "step": 144,
+          "value": 0.157,
+          "unit": "MW"
+        },
+        {
+          "step": 145,
+          "value": 0.158,
+          "unit": "MW"
+        },
+        {
+          "step": 146,
+          "value": 0.159,
+          "unit": "MW"
+        },
+        {
+          "step": 147,
+          "value": 0.16,
+          "unit": "MW"
+        },
+        {
+          "step": 148,
+          "value": 0.161,
+          "unit": "MW"
+        },
+        {
+          "step": 149,
+          "value": 0.162,
+          "unit": "MW"
+        },
+        {
+          "step": 150,
+          "value": 0.163,
+          "unit": "MW"
+        },
+        {
+          "step": 151,
+          "value": 36.253,
+          "unit": "MW"
+        },
+        {
+          "step": 152,
+          "value": 67.061,
+          "unit": "MW"
+        },
+        {
+          "step": 153,
+          "value": 120.623,
+          "unit": "MW"
+        },
+        {
+          "step": 154,
+          "value": 182.297,
+          "unit": "MW"
+        },
+        {
+          "step": 155,
+          "value": 259.157,
+          "unit": "MW"
+        },
+        {
+          "step": 156,
+          "value": 323.069,
+          "unit": "MW"
+        },
+        {
+          "step": 157,
+          "value": 393.122,
+          "unit": "MW"
+        },
+        {
+          "step": 158,
+          "value": 397.398,
+          "unit": "MW"
+        },
+        {
+          "step": 159,
+          "value": 395.766,
+          "unit": "MW"
+        },
+        {
+          "step": 160,
+          "value": 313.929,
+          "unit": "MW"
+        },
+        {
+          "step": 161,
+          "value": 256.402,
+          "unit": "MW"
+        },
+        {
+          "step": 162,
+          "value": 184.074,
+          "unit": "MW"
+        },
+        {
+          "step": 163,
+          "value": 118.934,
+          "unit": "MW"
+        },
+        {
+          "step": 164,
+          "value": 0.179,
+          "unit": "MW"
+        },
+        {
+          "step": 165,
+          "value": 0.18,
+          "unit": "MW"
+        },
+        {
+          "step": 166,
+          "value": 0.181,
+          "unit": "MW"
+        },
+        {
+          "step": 167,
+          "value": 0.182,
+          "unit": "MW"
+        },
+        {
+          "step": 168,
+          "value": 0.183,
+          "unit": "MW"
+        }
+      ]
+    }
+  }
+}
